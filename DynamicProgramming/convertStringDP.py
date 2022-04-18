@@ -15,3 +15,5 @@ def findMinOperation(s1, s2, index1, index2, tempDict):
             tempDict[dictKey] = min(deleteOp, insertOp, replaceOp)
         return tempDict[dictKey]
 
+print(findMinOperation("table", "tbrltt", 0, 0, {}))
+
