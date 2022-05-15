@@ -16,6 +16,7 @@ def populate(list1):
         e += 1
     return head
 
+#print(populate(list1))
 result = populate(list1)
 i = 0
 
